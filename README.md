@@ -35,7 +35,7 @@ Access the mod through the following sources:
 | Source | Description |
 |:---:|---|
 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2999591774) | The primary mod posting which also provides a convenient installation. |
-| [Nexus Mods](#) | The mod is soon also available on Nexus for those who prefer this platform. |
+| [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/5842) | The mod is also available on Nexus for those who prefer this platform. |
 | [GitHub](https://github.com/Haarrdy/MB-BetterTroopHUD/releases/latest) | Directly download the mod from the releases section of this GitHub repository. |
 
 Feel free to choose the source that suits your preference for downloading the mod.
@@ -74,3 +74,14 @@ Originally made for personal use but is now available for everyone to enjoy and 
 **Open-source and MIT licensed**\
 Available for public access under the permissive MIT license.\
 **Note:** The icons used in the mod are derivations of Taleworld's work and are not included under the MIT license.
+
+## Troubleshooting
+
+If you encounter issues with the mod, there are a few things that you may try in order to fix them:
+
+- Try running the game with only this mod activated (plus its dependencies) and see if the issue persists. If not, a mod conflict is causing your issue.
+- Verify game installation is correct & unaltered. If using Steam, use the "verify files" feature for your Bannerlord installation. Then try the first pointer again.
+- Re-download the mod, in case some files were modified/corrupted.
+- If you have had issues with other mods as well, you may consider reinstalling the game, updating drivers, etc.
+
+If the pointers above all fails, please post a Github issue with details about your problem and your system. Include OS, game version, module-run-order for all modules used when running the mod, and whatever else you may find useful for me to know when troubleshooting.
