@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+  <string id="BTHUDMCM000" text="全般" />
+  <string id="BTHUDMCM001" text="ウィジェットを表示" />
+  <string id="BTHUDMCM001Hint" text="ゲームをいちいち終了せずにウィジェットを隠したい際に使用します。" />
+  <string id="BTHUDMCM002" text="追加マーカーを表示" />
+  <string id="BTHUDMCM002Hint" text="味方部隊に関する追加情報を表示するマーカーを有効にします。" />
+  <string id="BTHUDMCM003" text="更新間隔" />
+  <string id="BTHUDMCM003Hint" text="ウィジェットの更新頻度を指定します。極端に小さい値にするとパフォーマンスが低下することがあります。" />
+  </strings>
+</base>
