@@ -14,6 +14,10 @@
     <GameFolder>$(BANNERLORD_GAME_DIR)</GameFolder>
     <GameBinariesFolder Condition="Exists('$(GameFolder)\bin\Win64_Shipping_Client')">Win64_Shipping_Client</GameBinariesFolder>
     <GameBinariesFolder Condition="Exists('$(GameFolder)\bin\Gaming.Desktop.x64_Shipping_Client')">Gaming.Desktop.x64_Shipping_Client</GameBinariesFolder>
+    <!-- Using PathMap to omit absolute paths from the development machine in the generated .pdb files. (Privacy) -->
+    <PathMap Condition="'$(Configuration)'=='Release'">$(MSBuildProjectDirectory)=./$(MSBuildProjectName)/,$(UserProfile)\.nuget\packages=./NuGetPackages</PathMap>
+    <!-- Disable source link for now, as to omit absolute path from the development machine in the generated .pdb files. (Privacy) -->
+    <EnableSourceLink>false</EnableSourceLink>
   </PropertyGroup>
 
   <ItemGroup>
