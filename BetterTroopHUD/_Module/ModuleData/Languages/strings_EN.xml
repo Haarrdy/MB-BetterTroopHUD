@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+  <string id="BTHUDMCM000" text="General" />
+  <string id="BTHUDMCM001" text="Show Widget" />
+  <string id="BTHUDMCM001Hint" text="Used to hide the widget without exiting the game." />
+  <string id="BTHUDMCM002" text="Show additional Markers" />
+  <string id="BTHUDMCM002Hint" text="Enables additional markers that provides more information about your troops." />
+  <string id="BTHUDMCM003" text="Update Rate" />
+  <string id="BTHUDMCM003Hint" text="Specifies how often the widget should be updated. Will affect performance if set too low." />
+  </strings>
+</base>
